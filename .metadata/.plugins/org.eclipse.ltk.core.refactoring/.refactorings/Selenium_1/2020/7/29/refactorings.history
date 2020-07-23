@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Authentication_Pop_Up&apos; to &apos;Yash_Infogram&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_1&apos;&#x0D;&#x0A;- Original element: &apos;Authentication_Pop_Up&apos;&#x0D;&#x0A;- Renamed element: &apos;Yash_Infogram&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Authentication_Pop_Up&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Authentication_Pop_Up.java[Authentication_Pop_Up" matchStrategy="1" name="Yash_Infogram" qualified="false" references="true" similarDeclarations="true" stamp="1594983432216" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,63 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Table_Grid {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Mpandey9\\Downloads\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		
+		driver.get("https://www.cricbuzz.com/live-cricket-scorecard/20787/nz-vs-ind-5th-odi-india-tour-of-new-zealand-2019");
+		
+		WebElement Scorecard1 = driver.findElement(By.cssSelector("div[class = 'cb-col cb-col-100 cb-ltst-wgt-hdr']"));
+		
+		
+		//Limiting the scope of webdriver to onky the first scorecard because the page more than one screcard with looking scores
+		//so if we use common CSS technique then scored from other scorecards will also be pulled.
+		
+		List<WebElement> Scores = Scorecard1.findElements(By.cssSelector("div[class = 'cb-col cb-col-100 cb-scrd-itms'] div:nth-child(3)"));
+		
+		//Taking all the webelements of scores into a List
+		//For traversing in CSS selector we cannot use just slash and index.
+		// for nth child in a parent using CSS formula is : (Relative css of parent tagname of child:nth-child(index)
+		
+		int TotalRows = Scorecard1.findElements(By.cssSelector("div[class = 'cb-col cb-col-100 cb-scrd-itms'] div:nth-child(3)")).size();
+		
+		//for nth child in a parent using CSS formula is : (Relative css of parent tagname of child:nth-child(index)
+		
+		System.out.println(TotalRows);
+		
+		for (int i = 1;i<TotalRows;i++)   //starting from 1 because one extra thing (no.) getting printed
+		{
+			
+			System.out.println(Scores.get(i).getText());
+		}
+		
+		System.out.println(Scorecard1.findElement(By.xpath("//div[text() = 'Extras']/following-sibling::div")));
+		
+		}
+	
+	    
+	
+	    //the extras and total have a different CSS so trying to pull those no. using a different technique
+	
+	   // since the row is same but its third element is not the score but we have definite siblings before them
+	   // namely "Extras" and "Total". So we will use following sibling concept of X-path
+	  
+	
+	   
+	
+		
+		
+
+	}
+

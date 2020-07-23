@@ -1,0 +1,7 @@
+01:53:14.038 [TestNG-tests-2] INFO  resources.Base - Navigation Bar Validation is started
+01:53:15.037 [TestNG-tests-3] INFO  resources.Base - Reached the URL
+00:50:44.358 [TestNG-tests-3] INFO  resources.Base - Driver is initialised
+00:50:58.198 [TestNG-tests-2] INFO  resources.Base - Navigation Bar Validation is started
+00:50:58.427 [TestNG-tests-1] INFO  resources.Base - Title Page Text check has started
+00:50:58.522 [TestNG-tests-3] INFO  resources.Base - Reached the URL
+00:52:50.098 [main] INFO  resources.Base - Driver is initialised
