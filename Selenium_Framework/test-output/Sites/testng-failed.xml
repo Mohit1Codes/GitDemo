@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sites]">
+  <parameter name="FbURL" value="https://fb.com"/>
+  <parameter name="URL" value="https://google.com"/>
+  <test thread-count="5" name="Google(failed)">
+    <parameter name="Search" value="Mat Zo"/>
+    <parameter name="URL" value="https://youtube.com"/>
+    <classes>
+      <class name="WebSites.Fb">
+        <methods>
+          <include name="Fb_Login"/>
+          <include name="Fb_Credentials"/>
+        </methods>
+      </class> <!-- WebSites.Fb -->
+      <class name="WebSites.Youtube">
+        <methods>
+          <include name="Youtube_URLLaunch"/>
+          <include name="Youtube_SearchOperation"/>
+        </methods>
+      </class> <!-- WebSites.Youtube -->
+      <class name="WebSites.Google">
+        <methods>
+          <include name="Google_GetLinks"/>
+          <include name="Google_EnterString"/>
+          <include name="Google_Login"/>
+        </methods>
+      </class> <!-- WebSites.Google -->
+    </classes>
+  </test> <!-- Google(failed) -->
+</suite> <!-- Failed suite [Sites] -->

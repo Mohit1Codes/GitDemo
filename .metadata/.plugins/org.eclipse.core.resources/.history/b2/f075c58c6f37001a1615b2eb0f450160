@@ -1,0 +1,17 @@
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Without_SendKeys_EnterText {
+
+       public static void textInFb (WebDriver driver, String URL) {
+    	   
+              driver.get(URL);
+              
+              JavascriptExecutor jscript = (JavascriptExecutor)driver;
+              jscript.executeScript("document.getElementById('email').value = 'Some text';"); 	   
+    	   
+       }
+       
+
+}

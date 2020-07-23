@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Sites">
+
+<listeners>
+
+<listener class-name="WebSites.Listeners"/>
+
+</listeners>
+
+<parameter name="URL" value="https://google.com"/>
+<parameter name="FbURL" value="https://fb.com"/>
+
+ <test name = "Google">
+ 
+   <parameter name = "URL" value = "https://youtube.com"/>
+   <parameter name = "Search" value = "Mat Zo"/>
+
+   <classes>
+
+     <class name = "WebSites.Google">
+       
+       <methods>
+       
+       
+         <exclude name = "Google_PageTitle"/>
+       
+       
+       </methods>
+     
+     </class>
+     
+     <class name = "WebSites.Youtube"/>
+     
+     
+     <class name = "WebSites.Fb"/>
+    
+
+   </classes>
+
+
+
+  </test>
+</suite>

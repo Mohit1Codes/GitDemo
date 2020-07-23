@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <parameter name="UserName" value="Rgowrishetty"/>
+  <parameter name="URL" value="https://efinance.test.slb.com/efinance-taxtoolauto/Dashboard.aspx?loginmethod=sso#"/>
+  <parameter name="Password" value="p"/>
+  <test thread-count="5" name="eFinance(failed)">
+    <classes>
+      <class name="Regression.e_Finance">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Regression.e_Finance -->
+    </classes>
+  </test> <!-- eFinance(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,0 +1,8 @@
+14:35:55.885 [main] ERROR Alpha.Demo - Object not present
+14:35:55.887 [main] FATAL Alpha.Demo - I am fatal error
+14:36:20.369 [main] ERROR Alpha.Demo - Object not present
+14:36:20.372 [main] FATAL Alpha.Demo - I am fatal error
+14:39:21.566 [main] INFO  Beta.Logged - The dividend is stored in u and its value is 3
+14:39:21.568 [main] INFO  Beta.Logged - The dividend is greater than 5
+14:39:40.272 [main] INFO  Beta.Logged - The dividend is stored in u and its value is 3
+14:39:40.274 [main] INFO  Beta.Logged - The dividend is greater than 5

@@ -1,0 +1,36 @@
+package Academy;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage;
+import pageObjects.LogInPage;
+import resources.Base;
+
+public class HomePage extends Base {
+	
+	
+	@Test
+	
+	public void basePageNavigation() throws IOException {
+		
+		
+          driver = initialiseDriver(); //we will have to store the driver object returned bt initialise driver class somewhere
+          driver.get("http://qaclickacademy.com");
+          driver.manage().window().maximize();
+          
+          LandingPage l = new LandingPage(driver); //passing driver object in argument to give life to the driver object present in PageObject class
+          l.getNoThanks().click();
+          l.getLogIn().click();
+          
+          LogInPage lP = new LogInPage(driver);
+          lP.getEmail().sendKeys("Restricted@User.com");
+          lP.getPassword().sendKeys("Restricted");
+          lP.getLogIn().click();
+		
+	}
+	
+	
+
+}

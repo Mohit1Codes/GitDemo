@@ -1,0 +1,7 @@
+16:28:14.471 [main] INFO  resources.Base - Title Page Text check has started
+16:28:22.554 [main] INFO  resources.Base - Navigation Bar Validation is started
+16:28:23.712 [main] INFO  resources.Base - Driver is initialised
+16:28:31.796 [main] INFO  resources.Base - Reached the URL
+18:17:40.423 [TestNG-tests-3] INFO  resources.Base - Driver is initialised
+18:17:49.107 [TestNG-tests-1] INFO  resources.Base - Title Page Text check has started
+18:17:49.455 [TestNG-tests-2] INFO  resources.Base - Navigation Bar Validation is started

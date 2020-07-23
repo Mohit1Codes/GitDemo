@@ -1,0 +1,48 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+
+public class LimitingScope_MultipleWindow_FindElements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Mpandey9\\Downloads\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://fb.com");
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().deleteAllCookies();
+		
+		driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+		
+		int TotalLinks = driver.findElements(By.tagName("a")).size();
+		
+		System.out.println(TotalLinks);
+		
+		WebElement footer = driver.findElement(By.xpath("//div[@id = 'globalContainer']/div[2]"));
+		
+		int Footerlink = footer.findElements(By.tagName("a")).size();
+		
+		System.out.println(Footerlink);
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

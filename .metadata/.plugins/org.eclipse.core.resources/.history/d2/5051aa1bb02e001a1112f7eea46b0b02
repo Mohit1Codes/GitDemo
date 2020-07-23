@@ -1,0 +1,19 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Xpath_CSS_RegEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Mpandey9\\Downloads\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rediff.com");
+		driver.findElement(By.cssSelector("a.signin")).click(); //using tagname.classname for CSS
+		//driver.findElement(By.xpath("//input[@contains(@id,'login')]")).sendKeys("xpath regex");
+		driver.findElement(By.cssSelector("input[type*='word']")).sendKeys("CSS regex");
+        driver.findElement(By.xpath("//input[@contains(@name,'procee')]")).click();
+	}
+
+}

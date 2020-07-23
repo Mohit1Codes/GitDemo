@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Personal Loan(failed)">
+    <classes>
+      <class name="T.CheckBox_Practise">
+        <methods>
+          <include name="CheckBoxPractise"/>
+        </methods>
+      </class> <!-- T.CheckBox_Practise -->
+      <class name="T.DataDriving">
+        <methods>
+          <include name="launchGoogle"/>
+          <include name="LogIn"/>
+        </methods>
+      </class> <!-- T.DataDriving -->
+      <class name="T.GetTitle">
+        <methods>
+          <include name="Title"/>
+          <include name="launchGoogle"/>
+          <include name="LogIn"/>
+        </methods>
+      </class> <!-- T.GetTitle -->
+      <class name="T.ChildWindow_WindowHandler">
+        <methods>
+          <include name="HandleChildWindows"/>
+        </methods>
+      </class> <!-- T.ChildWindow_WindowHandler -->
+      <class name="T.Alphabetic">
+        <methods>
+          <include name="C"/>
+          <include name="A"/>
+          <include name="B"/>
+        </methods>
+      </class> <!-- T.Alphabetic -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Suite] -->
