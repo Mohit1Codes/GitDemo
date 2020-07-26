@@ -2735,3 +2735,52 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2020-07-17 15:35:06,382 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-07-17 15:35:06,383 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-07-17 15:35:06,384 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\eclipse-workspace\E2EProject\src\test\resources
+<<<<<<< HEAD
+2020-07-25 03:14:10,396 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+=======
+2020-07-25 01:38:18,514 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-25 01:38:28,540 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:28,545 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-07-25 01:38:28,582 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:28,582 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\E2EProject\src\test\resources
+2020-07-25 01:38:31,566 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Academy:E2EProject:0.0.1-SNAPSHOT @ C:\Users\Mpandey9\GitDemo\E2EProject\pom.xml.
+2020-07-25 01:38:32,259 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:32,262 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 01:38:32,263 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:32,264 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\E2EProject\src\test\resources
+2020-07-25 01:38:32,861 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Academy:E2EProject:0.0.1-SNAPSHOT @ C:\Users\Mpandey9\GitDemo\E2EProject\pom.xml.
+2020-07-25 01:38:33,325 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:33,326 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 01:38:33,329 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:33,329 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\E2EProject\src\test\resources
+2020-07-25 01:38:33,703 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:33,704 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\src\main\resources
+2020-07-25 01:38:33,705 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:33,705 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\src\test\resources
+2020-07-25 01:38:34,373 [Worker-16: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumSessions:ExtentReportsDemo:0.0.1-SNAPSHOT @ C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\pom.xml.
+2020-07-25 01:38:34,628 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:34,628 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\src\main\resources
+2020-07-25 01:38:34,629 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:34,629 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\src\test\resources
+2020-07-25 01:38:34,821 [Worker-25: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumSessions:ExtentReportsDemo:0.0.1-SNAPSHOT @ C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\pom.xml.
+2020-07-25 01:38:34,984 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:34,984 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\src\main\resources
+2020-07-25 01:38:34,985 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:34,985 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\ExtentReportsDemo\src\test\resources
+2020-07-25 01:38:35,465 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:35,466 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\SeleniumSessions\src\main\resources
+2020-07-25 01:38:35,466 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:35,467 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\SeleniumSessions\src\test\resources
+2020-07-25 01:38:35,834 [Worker-20: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumSessions:SeleniumSessions:0.0.1-SNAPSHOT @ C:\Users\Mpandey9\GitDemo\SeleniumSessions\pom.xml.
+2020-07-25 01:38:36,072 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:36,072 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\SeleniumSessions\src\main\resources
+2020-07-25 01:38:36,074 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:36,074 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\SeleniumSessions\src\test\resources
+2020-07-25 01:38:36,300 [Worker-7: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumSessions:SeleniumSessions:0.0.1-SNAPSHOT @ C:\Users\Mpandey9\GitDemo\SeleniumSessions\pom.xml.
+2020-07-25 01:38:36,394 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:36,394 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\SeleniumSessions\src\main\resources
+2020-07-25 01:38:36,395 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-25 01:38:36,395 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mpandey9\GitDemo\SeleniumSessions\src\test\resources
+2020-07-25 03:20:03,781 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+>>>>>>> 1e98d68e65757c59035b3ec539d16d4fd14fd0e1
+2020-07-26 12:55:18,993 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
