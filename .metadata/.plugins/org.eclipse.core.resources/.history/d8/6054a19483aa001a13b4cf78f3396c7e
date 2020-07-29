@@ -1,0 +1,57 @@
+package Academy;
+
+import java.io.IOException;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage;
+import pageObjects.LogInPage;
+import resources.Base;
+
+public class HomePage extends Base {
+	
+	
+	@Test
+	
+	public void basePageNavigation(String UserName, String Password) throws IOException {
+		
+		
+          driver = initialiseDriver(); //we will have to store the driver object returned bt initialise driver class somewhere
+          driver.get("http://qaclickacademy.com");
+          driver.manage().window().maximize();
+          
+          LandingPage l = new LandingPage(driver); //passing driver object in argument to give life to the driver object present in PageObject class
+          l.getNoThanks().click();
+          l.getLogIn().click();
+          
+          LogInPage lP = new LogInPage(driver);
+          lP.getEmail().sendKeys("Restricted@User.com");
+          lP.getPassword().sendKeys("Restricted");
+          lP.getLogIn().click();
+		
+	}
+	
+	
+	@DataProvider
+	
+	public void getData()
+	{
+		
+		Object[][] data = new Object[1][2];
+		
+		//Row contains the no. of data set for which the test has to be run 
+		//Column contains no. of parameters in each data set
+		
+		data[0][0] = "Restricted@User.com";
+	    data[0][1] = "Restricted";
+	    
+	    //The test in which we are going to use this data should be declared wit varaibles that can catch the data from getDataMethod
+		
+		
+	}
+	
+	
+
+}

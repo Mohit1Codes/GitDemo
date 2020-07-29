@@ -1,0 +1,17 @@
+import org.openqa.selenium.WebDriver;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+// selenium code 
+		
+	// Create driver object for chrome driver
+	// we will strictly implement methods of webdriver (webdriver is a interface)
+		
+      WebDriver driver = new chromedriver();
+      
+		
+	}
+
+}
