@@ -1,4 +1,0 @@
-14:42:05.235 [main] DEBUG Alpha.Demo - I am debugging
-14:42:05.245 [main] ERROR Alpha.Demo - Object not present
-14:42:05.245 [main] INFO  Alpha.Demo - I am info log
-14:42:05.245 [main] FATAL Alpha.Demo - I am fatal error
