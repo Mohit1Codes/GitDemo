@@ -44,7 +44,7 @@ public class LandPageModule extends Base {
 		int links = presentationDriver.findElements(By.tagName("a")).size();
 		System.out.println(links);
 		log.info("The number of links present in presentaion bar is"+" "+links);	
-		Assert.assertFalse(2>1);
+		//Assert.assertFalse(2>1);
 
 	}
 	
