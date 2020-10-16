@@ -1,7 +1,0 @@
-02:38:18.924 [TestNG-tests-3] INFO  resources.Base - Driver is initialised
-02:38:26.931 [TestNG-tests-3] INFO  resources.Base - Reached the URL
-02:38:27.106 [TestNG-tests-2] INFO  resources.Base - Navigation Bar Validation is started
-02:38:28.144 [TestNG-tests-1] INFO  resources.Base - Title Page Text check has started
-02:24:07.698 [main] INFO  gmail.LandPageModule - https://gmail.com has been launched
-02:32:01.611 [main] INFO  gmail.LandPageModule - https://gmail.com has been launched
-02:32:11.691 [main] INFO  gmail.LandPageModule - The number of links present in presentaion bar is 0

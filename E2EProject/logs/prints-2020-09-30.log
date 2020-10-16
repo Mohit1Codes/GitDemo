@@ -1,6 +1,0 @@
-21:06:44.743 [main] INFO  resources.Base - Driver is initialised
-21:06:49.914 [main] INFO  resources.Base - Reached the URL
-21:08:15.002 [main] INFO  gmail.LandPageModule - https://gmail.com has been launched
-21:08:15.063 [main] INFO  gmail.LandPageModule - The number of links present in presentaion bar is 4
-21:10:00.777 [main] INFO  gmail.LandPageModule - https://gmail.com has been launched
-21:10:00.864 [main] INFO  gmail.LandPageModule - The number of links present in presentaion bar is 4
